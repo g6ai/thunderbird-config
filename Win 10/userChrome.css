@@ -1,0 +1,134 @@
+/* Style for Win 10, Mac Pro */
+
+/* Folder Tree Height */
+#folderTree treechildren:-moz-tree-row {
+    height: 24px !important;
+    min-height: 24px !important;
+}
+/* Thread Tree Zebra Striping */
+#threadTree treechildren:-moz-tree-row(odd) {
+    border: 1px solid transparent !important;
+    background-color: #F5F5F5 !important;
+}
+
+/* Thread Tree Selected Row */
+#threadTree treechildren:-moz-tree-row(selected) {
+    border: 1px solid transparent !important;
+    background-color: rgb(0,120,215) !important;
+    margin: 0 !important;
+}
+
+/* Thread Tree Row Height */
+#threadTree treechildren:-moz-tree-row {
+    height: 26px !important;
+    min-height: 26px !important;
+    margin: 0 !important;
+}
+
+/* Global Font */
+/* Disable this, as it interferes following settings. */
+/*
+* { font-size: 9pt !important;
+}
+*/
+
+/* Folder & Thread Tree Font */
+#folderTree treechildren:-moz-tree-cell-text {
+    font-weight: regular !important;
+    color: rgb(0,0,0) !important;
+    font-size: 10pt !important;
+}
+
+#threadTree treechildren:-moz-tree-cell-text {
+    font-family: Microsoft YaHei !important;
+    font-weight: regular !important;
+    color: rgb(0,0,0) !important;
+    font-size: 11pt !important;
+}
+
+/* Thread Tree Highlighted Font */
+#threadTree treechildren:-moz-tree-cell-text(selected) {
+    font-family: Microsoft YaHei !important;
+    font-weight: regular !important;
+    color: rgb(255,255,255) !important;
+    font-size: 11pt !important;
+}
+
+/* From tree.css, alters header row of thread tree */
+.treecol-text {
+    font-size: 10pt !important;
+}
+
+/* Menu Font */
+menu, menulist, menuitem {
+    font-size: 10pt !important;
+}
+
+/* Tabs Font */
+#tabs-toolbar .tab-text {
+    font-size: 10pt !important;
+    font-weight: regular !important;
+}
+
+/* From accountCentral.css */
+.acctCentralText {
+    font-size: 11pt !important;
+}
+
+.acctCentralNewAcctText {
+    font-size: 11pt !important;
+}
+
+/* From toolbarbutton.css */
+.toolbarbutton-text {
+    font-size: 10pt !important;
+}
+
+/* From messenger.css */
+statusbar {
+    font-size: 10pt !important;
+}
+
+/* From quickFilterBar.css */
+#quick-filter-bar toolbarbutton > .toolbarbutton-text {
+    font-size: 10pt !important;
+}
+
+/* From multimessageview.css */
+#content {
+    font-family: Microsoft YaHei !important;
+    font-size: 11pt !important;
+}
+
+/* mail-toolbox */
+#mail-toolbox{
+    box-shadow: 0px -1px 0px threedshadow inset !important;
+}
+
+/* Message Header Font, subject not included */
+#msgHeaderViewDeck label {
+    font-family: Microsoft YaHei !important;
+    font-size: 11pt !important;
+}
+
+/* Message Header Subject Font */
+#expandedsubjectBox .headerValue {
+    font-family: Microsoft YaHei !important;
+    font-size: 11pt !important;
+}
+
+/* Compact Header */
+#msgHeaderViewDeck label#CompactHeader_collapsedsubjectlinkBox, #CompactHeader_collapsed1LsubjectBox .headerValue, #CompactHeader_collapsed2LsubjectBox .headerValue {
+    text-decoration: none !important;
+    margin-bottom: 5px !important;
+    margin-top: 0 !important;
+    -moz-appearance: none !important;
+    font-size:10pt !important;
+    line-height: 100% !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    min-height: 12pt !important;
+    height: 12pt !important;
+    max-height: 12pt !important;
+    vertical-align: top !important;
+}
